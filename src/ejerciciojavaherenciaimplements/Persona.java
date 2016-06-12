@@ -23,6 +23,7 @@ public abstract class Persona implements IOperable {
         return rut;
     }
 
+    //setea el rut
     public void setRut(String rut) {
         this.rut = rut;
     }
