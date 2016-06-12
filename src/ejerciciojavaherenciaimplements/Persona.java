@@ -18,6 +18,7 @@ public abstract class Persona implements IOperable {
         setVacante(vacante);
     }
 
+    //devuelve el rut
     public String getRut() {
         return rut;
     }
