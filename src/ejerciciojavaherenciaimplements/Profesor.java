@@ -15,6 +15,7 @@ public class Profesor extends Persona {
         setProyecto(proyecto);
     }
 
+    //obtiene el Tipo de contrato
     public String getTipoContrato() {
         return tipoContrato;
     }
