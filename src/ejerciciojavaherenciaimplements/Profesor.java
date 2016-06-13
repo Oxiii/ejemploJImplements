@@ -10,12 +10,9 @@ public class Profesor extends Persona {
         proyecto = new Proyecto();
     }
 
-    public Profesor(String tipoContrato, Proyecto proyecto,String rut,String nombre, boolean vacante) {
+    public Profesor(String tipoContrato, Proyecto proyecto) {
         setTipoContrato(tipoContrato);
         setProyecto(proyecto);
-        setRut(rut);
-        setNombre(nombre);
-        setVacante(vacante);
     }
 
     //obtiene el Tipo de contrato
